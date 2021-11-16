@@ -1,32 +1,102 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-        <h1>Ejercicio sobre planetas</h1>
-            <table>
-                <thead>
+  </head>
+  <body>
+    <h1>Ejercicio sobre planetas</h1>
+    <table>
+      <thead>
+        <tr>
+          # del planeta
+        </tr>
+        <tr>
+          Planeta
+        </tr>
+        <tr>
+          Distancia (Años luz)
+        </tr>
+        <tr>
+          Tamaño
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <input
+              type="number"
+              id="n_planeta_1"
+              class="numeracion_planetas_planeta1"
+            />
+          </td>
+          <td>
+            <input
+              type="text"
+              id="np_planeta_1"
+              class="nombre_planetas_planeta1"
+            />
+          </td>
+          <td>
+            <input
+              type="number"
+              id="d_planeta_1"
+              class="distancia_planetas_planeta1"
+            />
+          </td>
+          <td>
+            <input
+              type="number"
+              id="t_planeta_1"
+              class="tamanio_planetas_planeta1"
+            />
+          </td>
+        </tr>
 
-                    <tr># del planeta</tr>
-                    <tr>Planeta</tr>
-                    <tr>Distancia (Años luz)</tr>
-                    <tr>Tamaño</tr>
 
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>1</td>
-                        <td>Tierra</td>
-                        <td>1</td>
-                        <td>1</td>
-                    </tr>
-                </tbody>
-            </table>
+        <tr>
+            <td>
+              <input
+                type="number"
+                id="n_planeta_2"
+                class="numeracion_planetas_planeta1"
+              />
+            </td>
+            <td>
+              <input
+                type="text"
+                id="np_planeta_2"
+                class="nombre_planetas_planeta1"
+              />
+            </td>
+            <td>
+              <input
+                type="number"
+                id="d_planeta_2"
+                class="distancia_planetas_planeta1"
+              />
+            </td>
+            <td>
+              <input
+                type="number"
+                id="t_planeta_2"
+                class="tamanio_planetas_planeta1"
+              />
+            </td>
+          </tr>
+          <div class="container">
+              
+            <button id="btn_enviar_evaluacion" class="item">Enviar</button>
+            <button id="btn_ordenar_valores" class="item">Ordenar Valores</button>
+            <button id="btn_filtrar_distancia" class="item">Filtrar</button>
+            <button id="btn_buscar_planeta" class="item">Buscar</button>
+
+          </div>
+      </tbody>
+    </table>
 
     <script src="./Scripts/Script.js"></script>
-</body>
+  </body>
 </html>
